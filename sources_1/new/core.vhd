@@ -17,7 +17,7 @@ use IEEE.STD_LOGIC_1164.ALL;
     port(A, B: in std_logic_vector(31 downto 0);
          Cin: in std_logic;
          Sum: out std_logic_vector(31 downto 0);
-         Cout: out std_logic_vector;
+         Cout: out std_logic_vector
          );
  end core;
  
